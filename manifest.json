@@ -1,0 +1,30 @@
+{
+    "expo": {
+      "name": "NexTech",
+      "slug": "NexTech",
+      "platforms": ["ios", "android", "web"],
+      "web": {
+        "favicon": "./assets/favicon.png",
+        "themeColor": "#ffffff",
+        "manifest": {
+          "short_name": "NexTech",
+          "name": "NexTech App",
+          "icons": [
+            {
+              "src": "./assets/icon.png",
+              "type": "image/png",
+              "sizes": "192x192"
+            },
+            {
+              "src": "./assets/icon.png",
+              "type": "image/png",
+              "sizes": "512x512"
+            }
+          ],
+          "start_url": "/",
+          "display": "standalone",
+          "background_color": "#ffffff"
+        }
+      }
+    }
+  }
